@@ -1,27 +1,31 @@
-# TheoryDA
+# Dummy Posts 🍭
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+This is a really simple angular application that was created by me 
+to make use of some of the most interesting and useful concepts in Angular 🥵
 
-## Development server
+- Components
+- Services
+- Dependency Injection & 
+- Routing
+  
+So, this application just uses the dummy api (which is really cool btw 🤘). 
+I used thier api to pull the dummy posts provided by them and then pass it to the component using dependency injection.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Btw, this is a Homework. LOL 😁
 
-## Code scaffolding
+## To run the application
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Just clone the code using `git clone` command.
+Run `npm install` to make sure all the packages are installed.
+Then `ng serve` to run the application on your system.
 
-## Build
+Kudos. 👋
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Demo Snaps 📸
 
-## Running unit tests
+<!-- add snap shots from /snaps -->
+![snap 1](snaps/ss1.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![snap 2](snaps/ss2.png)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

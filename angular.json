@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "theoryDA": {
+    "DummyPosts": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "theoryDA:build:production"
+              "browserTarget": "DummyPosts:build:production"
             },
             "development": {
-              "browserTarget": "theoryDA:build:development"
+              "browserTarget": "DummyPosts:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "theoryDA:build"
+            "browserTarget": "DummyPosts:build"
           }
         },
         "test": {
