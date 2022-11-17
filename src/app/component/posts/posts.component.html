@@ -1,0 +1,12 @@
+<div class="posts-container">
+    <div class="row">
+        <ng-container *ngFor="let item of postslist">
+            <div class="card">
+                <p class="title">{{item.title}}</p>
+                <p>{{item.body}}</p>
+                <button class="like-button">❤️</button>
+            </div>
+        </ng-container>
+
+    </div>
+</div>

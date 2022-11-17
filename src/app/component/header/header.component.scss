@@ -1,0 +1,67 @@
+// import inter font from google fonts
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap');
+
+header{
+
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 15px;
+    
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;                                                        
+    font-weight: 500;
+    text-decoration: uppercase;
+    font-style: normal;
+}
+
+.logo{
+    height: auto;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.login-button{
+    background-color: teal;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;                                                        
+    font-weight: 500;
+    text-decoration: uppercase;
+    font-style: normal;
+}
+
